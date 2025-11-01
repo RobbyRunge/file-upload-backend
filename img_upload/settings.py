@@ -18,7 +18,9 @@ import os
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Media Dateien Einstellungen
+# Einstellungen für hochgeladene Mediendateien (Ordner 'media/' wird erstellt)
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+# URL-Pfad für den Zugriff auf Mediendateien
 MEDIA_URL = '/media/'
 
 # Quick-start development settings - unsuitable for production

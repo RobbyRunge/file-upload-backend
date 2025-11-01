@@ -24,4 +24,5 @@ urlpatterns = [
     path('api/', include('upload_app.api.urls')),
 ]
 
+# Für das Bereitstellen von Mediendateien im Entwicklungsmodus
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
