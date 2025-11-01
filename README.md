@@ -55,14 +55,14 @@ The frontend application for this backend is available at:
 ```
 modul-9.1-file-upload-backend/
 │
-├── img_upload/                 # Main project directory
+├── img_upload/                # Main project directory
 │   ├── __init__.py
 │   ├── settings.py            # Django settings
 │   ├── urls.py                # Main URL configuration
 │   ├── wsgi.py                # WSGI configuration
 │   └── asgi.py                # ASGI configuration
 │
-├── upload_app/                 # Django app for file upload
+├── upload_app/                # Django app for file upload
 │   ├── __init__.py
 │   ├── admin.py               # Admin configuration
 │   ├── apps.py                # App configuration
@@ -80,7 +80,7 @@ modul-9.1-file-upload-backend/
 │       └── 0001_initial.py
 │
 ├── media/                      # Uploaded files (created automatically)
-│   └── uploads/               # Upload directory
+│   └── uploads/                # Upload directory
 │
 ├── manage.py                   # Django management script
 ├── db.sqlite3                  # SQLite database
